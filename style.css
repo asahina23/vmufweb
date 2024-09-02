@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: arial, serif;
+}
+
+/* start nf heading*/
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1a01bc;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    transition: 0.2s;
+    padding: 15px 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+}
+
+/* home- icon */
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 11px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.logo1 a {
+    color: #fff;
+    font-size: x-large;
+}
+
+.logo1 a:hover {
+    color: aqua;
+}
+
+/* dropdown area */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #140093;
+    min-width: 160px;
+    z-index: 1;
+    float: left;
+    padding: 5px 0;
+}
+
+.dropdown-content1 a {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+/* unang pic */
+.front-img {
+    margin-top: 6rem;
+    width: 100%;
+    padding: 235px;
+    background-image: url(https://www.vmuf.edu.ph/img/gallery/14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* L&R box design */
+
+section {
+    display: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    min-height: 1px;
+
+}
+
+/* LEFT BOX */
+
+.left_box {
+    display: inline;
+    width: 100%;
+    padding: 20px 80px 80px 150px;
+    margin: 20px 20px 0px 10px;
+    float: left;
+
+}
+
+.left_box>h2 {
+    color: #ffffff;
+    font-size: 26px;
+    padding: 0 5px;
+    background-color: #37c6f5;
+}
+
+.vismiss {
+    padding-bottom: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p {
+    display: block;
+    font-size: 14px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+
+.rndm {
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #37c6f5;
+    margin-bottom: 15px;
+}
+
+.corva {
+    margin: 1em auto;
+}
+
+.corva td {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+}
+.td-vm{
+    width: 70%;
+}
+
+/* RIGHT BOX */
+
+.right_box {
+    display: inline;
+    width: 100%;
+    padding: 0;
+    margin: 20px 20px 0px 30px;
+    float: left;
+}
+
+.right_box p {
+    line-height: 20px;
+}
+
+.right_box a {
+    align-items: center;
+    color: #12aee2;
+}
+
+
+/* 2nd IMG */
+
+.front-img2 {
+    padding: 180px;
+    width: 100%;
+    background-image: url(frontimg2.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+/* mid to bottom content */
+
+.mid-bottom-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #253bbb;
+}
+
+.rd {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.line {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #620d63;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.con-vid {
+    margin: 20px 0px 20px 80px;
+    width: 50%;
+}
+
+.con-vid iframe {
+    width: 80%;
+    height: 250px;
+}
+
+.con-desc {
+    margin: 20px 80px 20px 0px;
+    width: 50%;
+}
+
+.text-dec {
+    color: #fff;
+}
+
+.con-desc a:hover {
+    color: aqua;
+}
+
+/* Why Us  */
+
+.why-con {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.mb-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+
+.boxx-con {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.box-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(91, 183, 233, 0.975);
+}
+
+
+.box-content .icon-cont {
+    font-size: 80px;
+    text-shadow: 0 4px 6px rgba(255, 187, 254, 0.975);
+    color: rgba(91, 183, 233, 0.975);
+    margin-bottom: 10px;
+}
+
+.box-content .bx-titles {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.box-content .descs {
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* social-links*/
+
+.link-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    background-color: #171515;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-content img {
+    filter: invert(100%) brightness(100%);
+    height: 60px;
+    width: 60px;
+}
+
+
+.logo-con {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+
+.logo-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.right-content {
+    text-align: center;
+}
+
+
+.icons-title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #fff;
+}
+
+
+.icon a {
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon a:hover {
+    color: #37c6f5;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #140065;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#gmap {
+    width: 100%;
+    margin-top: 100px;
+}
